@@ -13,7 +13,7 @@ class Transfer
   end 
   
   def execute_transaction 
-    if self.status == "pending" && 
+    if self.status == "pending" && self.sender.balance 
   end 
   
   def reverse_transfer 
