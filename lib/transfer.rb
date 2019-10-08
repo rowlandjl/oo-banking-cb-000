@@ -13,6 +13,7 @@ class Transfer
   end 
   
   def execute_transaction 
+    if self.status == 
   end 
   
   def reverse_transfer 
