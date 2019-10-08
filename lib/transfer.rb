@@ -9,6 +9,7 @@ class Transfer
   end 
   
   def valid?
+    self.receiver.
   end 
   
   def execute_transaction 
